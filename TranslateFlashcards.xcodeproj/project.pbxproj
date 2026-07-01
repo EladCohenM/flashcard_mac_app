@@ -1,0 +1,387 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		100000000000000000000001 /* TranslateFlashcardsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 200000000000000000000001 /* TranslateFlashcardsApp.swift */; };
+		100000000000000000000002 /* Models.swift in Sources */ = {isa = PBXBuildFile; fileRef = 200000000000000000000002 /* Models.swift */; };
+		100000000000000000000003 /* TransferTypes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 200000000000000000000003 /* TransferTypes.swift */; };
+		100000000000000000000004 /* LanguageUtilities.swift in Sources */ = {isa = PBXBuildFile; fileRef = 200000000000000000000004 /* LanguageUtilities.swift */; };
+		100000000000000000000005 /* Formatting.swift in Sources */ = {isa = PBXBuildFile; fileRef = 200000000000000000000005 /* Formatting.swift */; };
+		100000000000000000000006 /* CSVParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 200000000000000000000006 /* CSVParser.swift */; };
+		100000000000000000000007 /* CardNormalizer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 200000000000000000000007 /* CardNormalizer.swift */; };
+		100000000000000000000008 /* ImportService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 200000000000000000000008 /* ImportService.swift */; };
+		100000000000000000000009 /* PracticeCardFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 200000000000000000000009 /* PracticeCardFactory.swift */; };
+		10000000000000000000000A /* AnswerMatcher.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20000000000000000000000A /* AnswerMatcher.swift */; };
+		10000000000000000000000B /* PracticeSession.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20000000000000000000000B /* PracticeSession.swift */; };
+		10000000000000000000000C /* CollectionStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20000000000000000000000C /* CollectionStore.swift */; };
+		10000000000000000000000D /* DebugSampleSeeder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20000000000000000000000D /* DebugSampleSeeder.swift */; };
+		10000000000000000000000E /* RootView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20000000000000000000000E /* RootView.swift */; };
+		10000000000000000000000F /* CollectionsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20000000000000000000000F /* CollectionsView.swift */; };
+		100000000000000000000010 /* ImportPreviewView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 200000000000000000000010 /* ImportPreviewView.swift */; };
+		100000000000000000000011 /* PracticeSetupView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 200000000000000000000011 /* PracticeSetupView.swift */; };
+		100000000000000000000012 /* PracticeSessionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 200000000000000000000012 /* PracticeSessionView.swift */; };
+		100000000000000000000013 /* HistoryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 200000000000000000000013 /* HistoryView.swift */; };
+		100000000000000000000014 /* SessionSummaryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 200000000000000000000014 /* SessionSummaryView.swift */; };
+		100000000000000000000015 /* ImportTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 200000000000000000000015 /* ImportTests.swift */; };
+		100000000000000000000016 /* FlashcardTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 200000000000000000000016 /* FlashcardTests.swift */; };
+		100000000000000000000017 /* SessionTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 200000000000000000000017 /* SessionTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		300000000000000000000001 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 900000000000000000000001 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 800000000000000000000001;
+			remoteInfo = TranslateFlashcards;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		200000000000000000000001 /* TranslateFlashcardsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = App/TranslateFlashcardsApp.swift; sourceTree = "<group>"; };
+		200000000000000000000002 /* Models.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Models/Models.swift; sourceTree = "<group>"; };
+		200000000000000000000003 /* TransferTypes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Models/TransferTypes.swift; sourceTree = "<group>"; };
+		200000000000000000000004 /* LanguageUtilities.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Utilities/LanguageUtilities.swift; sourceTree = "<group>"; };
+		200000000000000000000005 /* Formatting.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Utilities/Formatting.swift; sourceTree = "<group>"; };
+		200000000000000000000006 /* CSVParser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Importing/CSVParser.swift; sourceTree = "<group>"; };
+		200000000000000000000007 /* CardNormalizer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Importing/CardNormalizer.swift; sourceTree = "<group>"; };
+		200000000000000000000008 /* ImportService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Importing/ImportService.swift; sourceTree = "<group>"; };
+		200000000000000000000009 /* PracticeCardFactory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Flashcards/PracticeCardFactory.swift; sourceTree = "<group>"; };
+		20000000000000000000000A /* AnswerMatcher.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Flashcards/AnswerMatcher.swift; sourceTree = "<group>"; };
+		20000000000000000000000B /* PracticeSession.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sessions/PracticeSession.swift; sourceTree = "<group>"; };
+		20000000000000000000000C /* CollectionStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence/CollectionStore.swift; sourceTree = "<group>"; };
+		20000000000000000000000D /* DebugSampleSeeder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence/DebugSampleSeeder.swift; sourceTree = "<group>"; };
+		20000000000000000000000E /* RootView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Views/RootView.swift; sourceTree = "<group>"; };
+		20000000000000000000000F /* CollectionsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Views/CollectionsView.swift; sourceTree = "<group>"; };
+		200000000000000000000010 /* ImportPreviewView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Views/ImportPreviewView.swift; sourceTree = "<group>"; };
+		200000000000000000000011 /* PracticeSetupView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Views/PracticeSetupView.swift; sourceTree = "<group>"; };
+		200000000000000000000012 /* PracticeSessionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Views/PracticeSessionView.swift; sourceTree = "<group>"; };
+		200000000000000000000013 /* HistoryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Views/HistoryView.swift; sourceTree = "<group>"; };
+		200000000000000000000014 /* SessionSummaryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Views/SessionSummaryView.swift; sourceTree = "<group>"; };
+		200000000000000000000015 /* ImportTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImportTests.swift; sourceTree = "<group>"; };
+		200000000000000000000016 /* FlashcardTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlashcardTests.swift; sourceTree = "<group>"; };
+		200000000000000000000017 /* SessionTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SessionTests.swift; sourceTree = "<group>"; };
+		200000000000000000000018 /* TranslateFlashcards.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TranslateFlashcards.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		200000000000000000000019 /* TranslateFlashcardsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TranslateFlashcardsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		20000000000000000000001A /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		400000000000000000000001 /* Frameworks */ = {isa = PBXFrameworksBuildPhase; buildActionMask = 2147483647; files = (); runOnlyForDeploymentPostprocessing = 0; };
+		400000000000000000000002 /* Frameworks */ = {isa = PBXFrameworksBuildPhase; buildActionMask = 2147483647; files = (); runOnlyForDeploymentPostprocessing = 0; };
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		500000000000000000000001 = {
+			isa = PBXGroup;
+			children = (
+				500000000000000000000002 /* TranslateFlashcards */,
+				500000000000000000000003 /* TranslateFlashcardsTests */,
+				20000000000000000000001A /* README.md */,
+				500000000000000000000004 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		500000000000000000000002 /* TranslateFlashcards */ = {
+			isa = PBXGroup;
+			children = (
+				200000000000000000000001 /* TranslateFlashcardsApp.swift */,
+				200000000000000000000002 /* Models.swift */,
+				200000000000000000000003 /* TransferTypes.swift */,
+				200000000000000000000004 /* LanguageUtilities.swift */,
+				200000000000000000000005 /* Formatting.swift */,
+				200000000000000000000006 /* CSVParser.swift */,
+				200000000000000000000007 /* CardNormalizer.swift */,
+				200000000000000000000008 /* ImportService.swift */,
+				200000000000000000000009 /* PracticeCardFactory.swift */,
+				20000000000000000000000A /* AnswerMatcher.swift */,
+				20000000000000000000000B /* PracticeSession.swift */,
+				20000000000000000000000C /* CollectionStore.swift */,
+				20000000000000000000000D /* DebugSampleSeeder.swift */,
+				20000000000000000000000E /* RootView.swift */,
+				20000000000000000000000F /* CollectionsView.swift */,
+				200000000000000000000010 /* ImportPreviewView.swift */,
+				200000000000000000000011 /* PracticeSetupView.swift */,
+				200000000000000000000012 /* PracticeSessionView.swift */,
+				200000000000000000000013 /* HistoryView.swift */,
+				200000000000000000000014 /* SessionSummaryView.swift */,
+			);
+			path = TranslateFlashcards;
+			sourceTree = "<group>";
+		};
+		500000000000000000000003 /* TranslateFlashcardsTests */ = {
+			isa = PBXGroup;
+			children = (
+				200000000000000000000015 /* ImportTests.swift */,
+				200000000000000000000016 /* FlashcardTests.swift */,
+				200000000000000000000017 /* SessionTests.swift */,
+			);
+			path = TranslateFlashcardsTests;
+			sourceTree = "<group>";
+		};
+		500000000000000000000004 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				200000000000000000000018 /* TranslateFlashcards.app */,
+				200000000000000000000019 /* TranslateFlashcardsTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		800000000000000000000001 /* TranslateFlashcards */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A00000000000000000000001 /* Build configuration list for PBXNativeTarget "TranslateFlashcards" */;
+			buildPhases = (
+				600000000000000000000001 /* Sources */,
+				400000000000000000000001 /* Frameworks */,
+				700000000000000000000001 /* Resources */,
+			);
+			buildRules = ();
+			dependencies = ();
+			name = TranslateFlashcards;
+			productName = TranslateFlashcards;
+			productReference = 200000000000000000000018 /* TranslateFlashcards.app */;
+			productType = "com.apple.product-type.application";
+		};
+		800000000000000000000002 /* TranslateFlashcardsTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A00000000000000000000002 /* Build configuration list for PBXNativeTarget "TranslateFlashcardsTests" */;
+			buildPhases = (
+				600000000000000000000002 /* Sources */,
+				400000000000000000000002 /* Frameworks */,
+				700000000000000000000002 /* Resources */,
+			);
+			buildRules = ();
+			dependencies = (
+				B00000000000000000000001 /* PBXTargetDependency */,
+			);
+			name = TranslateFlashcardsTests;
+			productName = TranslateFlashcardsTests;
+			productReference = 200000000000000000000019 /* TranslateFlashcardsTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		900000000000000000000001 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1600;
+				LastUpgradeCheck = 1600;
+				TargetAttributes = {
+					800000000000000000000001 = { CreatedOnToolsVersion = 16.0; };
+					800000000000000000000002 = { CreatedOnToolsVersion = 16.0; TestTargetID = 800000000000000000000001; };
+				};
+			};
+			buildConfigurationList = A00000000000000000000003 /* Build configuration list for PBXProject "TranslateFlashcards" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (en, Base);
+			mainGroup = 500000000000000000000001;
+			productRefGroup = 500000000000000000000004 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				800000000000000000000001 /* TranslateFlashcards */,
+				800000000000000000000002 /* TranslateFlashcardsTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		700000000000000000000001 /* Resources */ = {isa = PBXResourcesBuildPhase; buildActionMask = 2147483647; files = (); runOnlyForDeploymentPostprocessing = 0; };
+		700000000000000000000002 /* Resources */ = {isa = PBXResourcesBuildPhase; buildActionMask = 2147483647; files = (); runOnlyForDeploymentPostprocessing = 0; };
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		600000000000000000000001 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				100000000000000000000001 /* TranslateFlashcardsApp.swift in Sources */,
+				100000000000000000000002 /* Models.swift in Sources */,
+				100000000000000000000003 /* TransferTypes.swift in Sources */,
+				100000000000000000000004 /* LanguageUtilities.swift in Sources */,
+				100000000000000000000005 /* Formatting.swift in Sources */,
+				100000000000000000000006 /* CSVParser.swift in Sources */,
+				100000000000000000000007 /* CardNormalizer.swift in Sources */,
+				100000000000000000000008 /* ImportService.swift in Sources */,
+				100000000000000000000009 /* PracticeCardFactory.swift in Sources */,
+				10000000000000000000000A /* AnswerMatcher.swift in Sources */,
+				10000000000000000000000B /* PracticeSession.swift in Sources */,
+				10000000000000000000000C /* CollectionStore.swift in Sources */,
+				10000000000000000000000D /* DebugSampleSeeder.swift in Sources */,
+				10000000000000000000000E /* RootView.swift in Sources */,
+				10000000000000000000000F /* CollectionsView.swift in Sources */,
+				100000000000000000000010 /* ImportPreviewView.swift in Sources */,
+				100000000000000000000011 /* PracticeSetupView.swift in Sources */,
+				100000000000000000000012 /* PracticeSessionView.swift in Sources */,
+				100000000000000000000013 /* HistoryView.swift in Sources */,
+				100000000000000000000014 /* SessionSummaryView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		600000000000000000000002 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				100000000000000000000015 /* ImportTests.swift in Sources */,
+				100000000000000000000016 /* FlashcardTests.swift in Sources */,
+				100000000000000000000017 /* SessionTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B00000000000000000000001 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 800000000000000000000001 /* TranslateFlashcards */;
+			targetProxy = 300000000000000000000001 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		C00000000000000000000001 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_ASSET_PATHS = "";
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "Translate Flashcards";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.education";
+				LD_RUNPATH_SEARCH_PATHS = ("$(inherited)", "@executable_path/../Frameworks");
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.elad.TranslateFlashcards;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		C00000000000000000000002 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "Translate Flashcards";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.education";
+				LD_RUNPATH_SEARCH_PATHS = ("$(inherited)", "@executable_path/../Frameworks");
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.elad.TranslateFlashcards;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		C00000000000000000000003 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.elad.TranslateFlashcardsTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TranslateFlashcards.app/Contents/MacOS/TranslateFlashcards";
+			};
+			name = Debug;
+		};
+		C00000000000000000000004 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.elad.TranslateFlashcardsTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TranslateFlashcards.app/Contents/MacOS/TranslateFlashcards";
+			};
+			name = Release;
+		};
+		C00000000000000000000005 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		C00000000000000000000006 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A00000000000000000000001 /* Build configuration list for PBXNativeTarget "TranslateFlashcards" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (C00000000000000000000001 /* Debug */, C00000000000000000000002 /* Release */);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A00000000000000000000002 /* Build configuration list for PBXNativeTarget "TranslateFlashcardsTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (C00000000000000000000003 /* Debug */, C00000000000000000000004 /* Release */);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A00000000000000000000003 /* Build configuration list for PBXProject "TranslateFlashcards" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (C00000000000000000000005 /* Debug */, C00000000000000000000006 /* Release */);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 900000000000000000000001 /* Project object */;
+}
